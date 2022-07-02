@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-deployment",
+  "version": "1.0.0",
+  "description": "In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikantha7760/AI-chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manikantha7760/AI-chatbot/issues"
+  },
+  "homepage": "https://github.com/manikantha7760/AI-chatbot#readme"
+}

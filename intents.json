@@ -1,0 +1,245 @@
+{"intents": [
+
+  {
+  "tag":"greetings1",
+  "patterns":["Hello","Hi","Greetings"],
+  "responses":["Hello","Hi","Greetings!"]
+  },
+  
+  {
+  "tag":"greetings6",
+  "patterns":["Hi, How is it going?"],
+  "responses":["Fine","Great"]
+  },
+  
+  {
+  "tag":"greetings11",
+  "patterns":["How are you doing?"],
+  "responses":["Good.","Very well, thanks."]
+  },
+  
+  {
+  "tag":"greetings14",
+  "patterns":["Nice to meet you."],
+  "responses":["Thank you."]
+  },
+  {
+  "tag":"greetings17",
+  "patterns":["Hi, nice to meet you.","It is a pleasure to meet you."],
+  "responses":["Thank you. You too.","It is a pleasure to meet you."]
+  },
+  
+  {
+  "tag":"greetings21",
+  "patterns":["What's up?"],
+  "responses":["Not much.","Nothing much."]
+  },
+  {
+      "tag":"clg1",
+      "patterns":["who is Principal of SDMCET","Pricipal of SHRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY"],
+      "responses":["Dr. K. GOPINATH","pricipal of SDMCET IS Dr. K. GOPINATH"]
+      },
+      {
+      "tag":"clg2",
+      "patterns":["who is President of SDMCET","President of SHRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY"],
+      "responses":["DR. D. VEERENDRA HEGGADE","president of SDMCET is DR. D. VEERENDRA HEGGADE"]
+      },
+      
+      {
+      "tag":"clg3",
+      "patterns":["where is SDMCET","where is SHRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY"],
+      "responses":["SDM College of Engineering and Technology,Kalaghatagi Road, Dharwad 580002","SDM College of Engineering and Technology,Kalaghatagi Road,Dharwad 580002"]
+      },
+      {
+      "tag":"cse1",
+      "patterns":["who is HOD of the CSE department","CSE HOD"],
+      "responses":["Dr.Shrihari M. Joshi","Hod of the Cse is Dr.Shrihari M. Joshi"]
+      },
+      {
+      "tag":"cse2",
+      "patterns":["facilities provided in cse department","cse facilities"],
+      "responses":["High-speed WIFI, Library,Spacious labs"]
+      },
+      {
+      "tag":"cse3",
+      "patterns":["How mamy companies have visited for cse department in the year 2021","Number of companies visited in 2021"],
+      "responses":["85 companies visited the cse department for placement in the year 2021.","85 companies visited."]
+      },
+      {
+      "tag":"cse4",
+      "patterns":["How many Cse students placed in the year 2021","Number of Cse students placed in the year 2021"],
+      "responses":["100 Cse students have placed in the year 2021.","Number of Cse students placed in the year 2021 are 100."]
+      },
+      
+      {
+      "tag":"cse5",
+      "patterns":["How mamy faculty members are there in cse department","Number of faculty members in cse department"],
+      "responses":["30 faculty members in cse department.","Number of faculty members in cse department are 30."]
+      },
+      
+      {
+      "tag":"cse6",
+      "patterns":["How many students are there in cse department of 2022 batch","Number of students in cse department of 2022 batch"],
+      "responses":["150 students of 2022 batch are there in cse department.","Number of students in cse department of 2022 batch are 150."]
+      },
+      {
+      "tag":"cse7",
+      "patterns":["How many students are there in cse department","Number of students in cse department"],
+      "responses":["500 students are there in cse department.","Number of students in cse department are 500."]
+      },
+      {
+      "tag":"cse8",
+      "patterns":["How many classrooms are there in cse department ","Number of classrooms in cse department"],
+      "responses":["6 classrooms are there in cse department.","Number of classrooms in cse department are 6."]
+      },
+      {
+      "tag":"cse9",
+      "patterns":["How many labs are there in cse department ","Number of labs in cse department"],
+      "responses":["5 labs are there in cse department.","Number of labs in cse department are 5."]
+      },
+      {
+      "tag":"cse10",
+      "patterns":["In which year Cse department was established ","Cse department was established in which year"],
+      "responses":["Department of cse was established in the year 1985.","1985."]
+      },
+      
+      {
+          "tag":"ise1",
+          "patterns":["who is HOD of the ISE department","ISE HOD"],
+          "responses":["Dr. Jagadeesh Pujari","Hod of the ise is Dr. Jagadeesh Pujari"]
+          },
+          {
+          "tag":"ise2",
+          "patterns":["facilities provided in ise department","ise facilities"],
+          "responses":["High-speed WIFI, Library,Spacious labs"]
+          },
+          {
+          "tag":"ise3",
+          "patterns":["How mamy companies have visited for ise department in the year 2021","Number of companies visited for ise in 2021"],
+          "responses":["75 companies visited the ise department for placement in the year 2021.","75 companies visited."]
+          },
+          {
+          "tag":"ise4",
+          "patterns":["How many ise students placed in the year 2021","Number of ise students placed in the year 2021"],
+          "responses":["50 ise students have placed in the year 2021.","Number of ise students placed in the year 2021 are 50."]
+          },
+          
+          {
+          "tag":"ise5",
+          "patterns":["How mamy faculty members are there in ise department","Number of faculty members in ise department"],
+          "responses":["15 faculty members in ise department.","Number of faculty members in ise department are 15."]
+          },
+          
+          {
+          "tag":"ise6",
+          "patterns":["How many students are there in ise department of 2022 batch","Number of students in ise department of 2022 batch"],
+          "responses":["80 students of 2022 batch are there in ise department.","Number of students in ise department of 2022 batch are 80."]
+          },
+          {
+          "tag":"ise7",
+          "patterns":["How many students are there in ise department","Number of students in ise department"],
+          "responses":["250 students are there in ise department.","Number of students in ise department are 250."]
+          },
+          {
+          "tag":"ise8",
+          "patterns":["How many classrooms are there in ise department ","Number of classrooms in ise department"],
+          "responses":["3 classrooms are there in ise department.","Number of classrooms in ise department are 3."]
+          },
+          {
+          "tag":"ise9",
+          "patterns":["How many labs are there in ise department ","Number of labs in ise department"],
+          "responses":["2 labs are there in ise department.","Number of labs in ise department are 2."]
+          },
+          {
+          "tag":"ise10",
+          "patterns":["In which year ise department was established ","Ise department was established in which year"],
+          "responses":["Department of cse was established in the year 2000.","2000."]
+          },
+          {
+          "tag":"ece1",
+          "patterns":["who is HOD of the ECE department","ECE HOD"],
+          "responses":["Dr.Vijaya C.","Hod of the ECE is Dr. Vijaya C."]
+          },
+          {
+          "tag":"ece2",
+          "patterns":["facilities provided in ECE department","ECE facilities"],
+          "responses":["High-speed WIFI, Library,Spacious labs"]
+          },
+          {
+          "tag":"ece3",
+          "patterns":["How many classrooms are there in ECE department ","Number of classrooms in ECE department"],
+          "responses":["6 classrooms are there in ECE department.","Number of classrooms in ECE department are 6."]
+          },
+          
+          {
+          "tag":"ece4",
+          "patterns":["In which year ECE department was established ","ECE department was established in which year"],
+          "responses":["Department of ECE was established in the year 1980.","1980."]
+           },
+      {
+      "tag":"ece5",
+      "patterns":["How mamy faculty members are there in ECE department","Number of faculty members in ECE department"],
+      "responses":["20 faculty members in ECE department.","Number of faculty members in ECE department are 20."]
+      },
+      
+      {
+      "tag":"ece6",
+      "patterns":["How many students are there in ECE department of 2022 batch","Number of students in ECE department of 2022 batch"],
+      "responses":["120 students of 2022 batch are there in ECE department.","Number of students in ECE department of 2022 batch are 120."]
+      }, 
+      {
+      "tag":"eee",
+      "patterns":["who is HOD of the EEE department","EEE HOD"],
+      "responses":["Dr. Shekhappa Ankaliki","Hod of the EEE is Dr. Shekhappa Ankaliki"]
+      },
+      {
+      "tag":"eee2",
+      "patterns":["facilities provided in EEE department","EEE facilities"],
+      "responses":["High-speed WIFI, Library,Spacious labs"]
+      },
+      {
+      "tag":"eee3",
+      "patterns":["How many classrooms are there in EEE department ","Number of classrooms in EEE department"],
+      "responses":["6 classrooms are there in EEE department.","Number of classrooms in EEE department are 6."]
+      },
+  
+      {
+      "tag":"eee4",
+      "patterns":["In which year EEE department was established ","EEE department was established in which year"],
+      "responses":["Department of EEE was established in the year 1979.","1979."]
+      },
+      {
+      "tag":"mech1",
+      "patterns":["who is HOD of the MECH department","MECH HOD"],
+      "responses":["Dr.I P shridhar ","Hod of the Mech is Dr.I P shridhar "]
+      },
+      
+      {
+      "tag":"mech2",
+      "patterns":["facilities provide by the college","college facilities"],
+      "responses":["High-speed WIFI, Library,research labs"]
+      },
+      {
+      "tag":"mech3",
+      "patterns":["In which year MECH department was established ","MECH department was established in which year"],
+      "responses":["Department of MECH was established in the year 1979.","1979."]
+      },
+      {
+        "tag":"hostel1",
+        "patterns":["how many hostels are there in total","total number of hostels"],
+        "responses":["5 hostels are there in total.","5."]
+      },
+      {
+        "tag":"hostel2",
+        "patterns":["how many hostels are there for boys","total number of hostels for boys"],
+        "responses":["3 hostels are there in total.","3."]
+      },
+      {
+        "tag":"hostel3",
+        "patterns":["how many hostels are there for girls","total number of hostelsfor girls"],
+        "responses":["2 hostels are there in total.","2."]
+      }
+
+
+  
+  ] }
