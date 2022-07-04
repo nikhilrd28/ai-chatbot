@@ -102,7 +102,46 @@
       "patterns":["In which year Cse department was established ","Cse department was established in which year"],
       "responses":["Department of cse was established in the year 1985.","1985."]
       },
-      
+      {
+       "tag":"feeStructure1",
+       "patterns":["Fee Structure through cet","Fee Structure of cet students","cet Fee Structure"],
+       "responses":[" CET Quota is - Rs.83526/- per year for all the branches."]
+      },
+      {
+        "tag":"feeStructure2",
+        "patterns":["Mechanical Fee Structure through management seats"," Mechanical Fee Structure of management seats","Mechanical management Fee Structure"],
+        "responses":["Mechanical Engg.->Rs.175000"]
+      },
+      {
+        "tag":"feeStructure3",
+        "patterns":["Computer Science Fee Structure through management seats"," Computer science Fee Structure of management seats","Computer science management Fee Structure"],
+        "responses":["Computer Science Engg.->Rs.350000"]
+      },
+      {
+        "tag":"feeStructure4",
+        "patterns":[" Information science Fee Structure through management seats"," Information science  Fee Structure of management seats"," Information science management Fee Structure"],
+        "responses":["Informations Science Engg.->Rs.325000"]
+      },
+      {
+        "tag":"feeStructure5",
+        "patterns":["Civil Fee Structure through management seats","Civil  Fee Structure of management seats","Civil management Fee Structure"],
+        "responses":["Civil Engg.->Rs.200000"]
+      },
+      {
+        "tag":"feeStructure6",
+        "patterns":["Electronics & Communication  Fee Structure through management seats","Electronics & Communication  Fee Structure of management seats","Electronics & Communication  management Fee Structure"],
+        "responses":["Electronics & Communication Engg.->Rs.275000"]
+      },
+      {
+        "tag":"feeStructure7",
+        "patterns":["Electrical & Electronics  Fee Structure through management seats","Electrical & Electronics Fee Structure of management seats","Electrical & Electronics management Fee Structure"],
+        "responses":["Electrical & Electronics Engg.->Rs.150000"]
+      },
+      {
+        "tag":"feeStructure8",
+        "patterns":["Chemical Fee Structure through management seats","Chemical Fee Structure of management seats","Chemical management Fee Structure"],
+        "responses":["Chemical Engg.->Rs.100000"]
+      },
       {
           "tag":"ise1",
           "patterns":["who is HOD of the ISE department","ISE HOD"],

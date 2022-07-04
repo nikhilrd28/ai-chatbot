@@ -5,6 +5,7 @@ import json
 import os
 
 import waitress
+from waitress import serve
 from chat import get_response
 #import webbrowser,pyautogui
 from threading import Timer 
@@ -35,7 +36,7 @@ if __name__ == "__main__":
     #serve(app, host='0.0.0.0', port=5000)
     app.debug = False
     port = int(os.environ.get('PORT', 33507))
-    waitress.serve(app, port=port)
+    serve(app, host='0.0.0.0', port=port)
     
     
 
